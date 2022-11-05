@@ -29,6 +29,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libpiex_shim
 
+# Dolby Support
+TARGET_USES_MIUI_DOLBY := true
+
+PRODUCT_PACKAGES += \
+    libstagefright_foundation-v33
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
