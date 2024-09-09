@@ -27,3 +27,7 @@ PRODUCT_MODEL := POCO F3
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 BUILD_FINGERPRINT := POCO/alioth_global/alioth:13/TKQ1.221114.001/V816.0.2.0.TKHMIXM:user/release-keys
+
+# Inherit some common Evolution X stuff.
+BUILD_WITH_GAPPS := true
+TARGET_USES_PICO_GAPPS := false
