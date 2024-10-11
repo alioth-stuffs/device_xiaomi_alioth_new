@@ -30,4 +30,4 @@ BUILD_FINGERPRINT := POCO/alioth_global/alioth:13/TKQ1.221114.001/V816.0.2.0.TKH
 
 # Inherit some common Evolution X stuff.
 BUILD_WITH_GAPPS := true
-TARGET_USES_PICO_GAPPS := false
+TARGET_USES_PICO_GAPPS := true
